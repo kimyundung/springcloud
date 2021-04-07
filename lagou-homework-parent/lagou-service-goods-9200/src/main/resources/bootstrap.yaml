@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    #针对config分布式配置中心的配置, 配置config server的信息
+    config:
+      name: application #获取的配置文件的名字
+      profile: dev  #后缀
+      label: master #分支
+      uri: http://127.0.0.1:9400 #config server地址
