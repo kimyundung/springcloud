@@ -24,7 +24,7 @@ spring:
         git:
           uri: https://github.com/kimyundung/lagou-config.git #git地址
           username: kimyundung
-          password: 342407hong
+          password: ********
           search-paths:  #加载的项目(可多个)
             - lagou-config
       label: master #分支
